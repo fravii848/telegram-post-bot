@@ -1,0 +1,21 @@
+{
+    "name": "php-do-jeito-certo/telegram-post-bot",
+    "require": {
+        "silex/silex": "^2.0",
+        "longman/telegram-bot": "^0.35.0"
+    },
+    "authors": [
+        {
+            "name": "Davi Marcondes Moreira",
+            "email": "davi.marcondes.moreira@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "PDJC": "src/"
+        },
+        "psr-4": {
+            "PDJC\\": "src/"
+        }
+    }
+}
